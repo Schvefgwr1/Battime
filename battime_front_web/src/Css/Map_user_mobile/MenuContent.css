@@ -1,0 +1,119 @@
+.main-contener-menu-content {
+    width: 100%;
+    background-color: black;
+    min-height: 48vh;
+    overflow-y: auto;
+}
+
+.main-desc-contener {
+    width: 90%;
+    margin-top: 4vh;
+    margin-left: 5%;
+
+}
+.filters-contener {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter-contener {
+    width: 90%;
+    height: 3vh;
+    background-color: #035BD8;
+    color: white;
+    font-size: 12px;
+    font-family: Roboto, serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filters-line {
+    width: 33%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-contener {
+    width: 100%;
+}
+.title-description {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: Inter, serif;
+    font-weight: 700;
+}
+.text-description {
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: Inter, serif;
+    font-weight: 700;
+}
+
+.main-contacts-contener {
+    width: 90%;
+    margin-top: 4vh;
+    margin-left: 5%;
+}
+.title-contacts {
+    color: white;
+    font-size: 24px;
+    font-family: Inter, serif;
+    font-weight: 700;
+}
+.contacts-contener {
+    width: 100%;
+    margin-top: 4vh;
+}
+.contener-contact-flex {
+    min-height: 5vh;
+    display: flex;
+}
+.name-contact {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: Inter, serif;
+    font-weight: 700;
+}
+.this-contact {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    color: #035BD8;
+    font-size: 20px;
+    font-family: Inter, serif;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+.main-photos-contener {
+    width: 100%;
+    overflow: scroll;
+    height: 48vh;
+}
+.menu-photo {
+    height: 48vh;
+    width: 98%;
+    margin-left: 1%;
+}
+.photos-line {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos-in-line {
+    width: 50%;
+}

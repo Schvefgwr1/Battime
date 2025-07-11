@@ -1,0 +1,17 @@
+.ant-drawer-content-wrapper{
+    height: calc(100% - 100px) !important;
+    background-color: transparent;
+}
+
+.ant-drawer-body {
+    background-color: #161927;
+    color: white;
+    height: 800px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 0 !important;
+}
+.ant-drawer-content{
+    background-color: transparent !important;
+
+}

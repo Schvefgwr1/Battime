@@ -1,0 +1,16 @@
+.text-er_lo-cont {
+    height: 50px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_message-style {
+    color: red;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+}

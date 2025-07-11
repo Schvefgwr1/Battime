@@ -1,0 +1,55 @@
+.main {
+    position: relative;
+    height: 100px;
+    color: white;
+    background-color: #035BD8;
+    width: 80%;
+    left: 10%;
+    bottom: 95px;
+    border-radius: 20px;
+}
+
+.contener {
+    display: flex;
+    width: 90%;
+    height: 95%;
+    position: relative;
+    top: 2.5%;
+    left: 5%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    width: 40%;
+    height: 60%;
+    position: relative;
+    top: 20%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.upload-button {
+    position: relative;
+    top: 20%;
+    height: 60%;
+    width: 50%;
+    left: 10%;
+    background-color: black;
+    border-radius: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}

@@ -1,0 +1,40 @@
+.menu_buttons {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.left_button_cont {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.right_buttons {
+    height: 100%;
+    width: 20%;
+    margin-left: auto;
+}
+
+.right_button_cont {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    height: 8vh;
+    width: 8vh;
+    background-color: #035BD8;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile_button.button {
+    margin-top: 8%;
+}

@@ -1,0 +1,30 @@
+.main_map_block {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.buttons_label {
+    position: absolute;
+    width: 100%;
+    bottom: 80%;
+    z-index: 2;
+}
+
+.test_comp {
+    height: 200px;
+    width: 200px;
+    background-color: #035BD8;
+    border-radius: 100%;
+}
+
+#map-container{
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+/* убирает +- кнопки на карте!!! */
+.mapgl_RyvsmCnoVe7ui2MClLMS {
+    display: none !important;
+}

@@ -21,7 +21,11 @@ battime/api/yarn-error.log
 
 # Laravel directories
 battime/api/bootstrap/cache/
-battime/api/storage/
+battime/api/storage/logs/
+battime/api/storage/framework/cache/
+battime/api/storage/framework/sessions/
+battime/api/storage/framework/testing/
+battime/api/storage/framework/views/
 battime/api/vendor/
 battime/api/node_modules/
 

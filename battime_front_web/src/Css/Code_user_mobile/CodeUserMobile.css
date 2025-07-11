@@ -1,0 +1,126 @@
+.main-box{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+}
+.up-block{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+}
+.down-block{
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+}
+.up-block1{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+}
+.back-button{
+    width: 78px;
+    border-radius: 38px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: 27px;
+    background-color: #000000;
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+.code{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+}
+.text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 350px;
+    height: 100px;
+    padding-top: 60px;
+}
+.input-group-input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: solid white 2px;
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.white{
+    color: white;
+    font-size: 25px;
+}
+.button-block{
+padding-top: 40px;
+
+}
+.confirm{
+    height: 32px;
+    width: 200px;
+    background-color: #666666;
+    border: 1px solid #666666;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+.send{
+    height: 32px;
+    width: 200px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 85px;
+}
+.confirmtrue{
+    height: 32px;
+    width: 200px;
+    background-color: #035BD8;
+    border: 1px solid #035BD8;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+

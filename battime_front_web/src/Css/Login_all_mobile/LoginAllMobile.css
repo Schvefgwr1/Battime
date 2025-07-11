@@ -1,0 +1,221 @@
+.login-main-box{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+    padding-top: 15vh;
+}
+.login-main-box-element-top-margin{
+    margin-top: 5vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.login-main-box-element-top-margin-button{
+    margin-top: 10vh;
+}
+
+.point{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    right: 0px;
+    top: 0px;
+}
+.h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+.h2{
+
+}
+.h3{
+
+}
+.h4{
+
+}
+.h5{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+.normal{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.bold{
+
+}
+.white{
+    color: white;
+}
+.red{
+    color: red;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+    height: 100px;
+}
+.input-group-input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: solid white 2px;
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.button-blue-active{
+    width: 300px;
+    height: 40px;
+    background-color:#035BD8;
+    border: none;
+    border-radius: 38px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.button-blue-active:focus{
+    height: 38px;
+    width: 298px;
+    background-color: #000000;
+    border: solid 1px #035BD8;
+    color: #035BD8;
+
+}
+.button-blue-active:hover{
+    height: 38px;
+    width: 298px;
+    background-color: #000000;
+    border: solid 1px #035BD8;
+    color: #035BD8;
+}
+.login-main-box{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000000;
+    padding-top: 15vh;
+}
+.login-main-box-element-top-margin{
+    margin-top: 5vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.login-main-box-element-top-margin-button{
+    margin-top: 10vh;
+}
+.point{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    right: 0px;
+    top: 0px;
+}
+.h1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+.h2{
+
+}
+.h3{
+
+}
+.h4{
+
+}
+.h5{
+
+}
+.normal{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.bold{
+
+}
+.white{
+    color: white;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+    height: 100px;
+}
+.input-group-input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: solid white 2px;
+    background-color: black;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.button-blue-active{
+    width: 300px;
+    height: 40px;
+    background-color:#035BD8;
+    border: none;
+    border-radius: 38px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.button-blue-active:focus{
+    height: 38px;
+    width: 298px;
+    background-color: #000000;
+    border: solid 1px #035BD8;
+    color: #035BD8;
+
+}
+.button-blue-active:hover{
+    height: 38px;
+    width: 298px;
+    background-color: #000000;
+    border: solid 1px #035BD8;
+    color: #035BD8;
+}
