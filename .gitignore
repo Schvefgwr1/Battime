@@ -1,0 +1,166 @@
+# =======================
+# BATTIME MonoRepo .gitignore
+# =======================
+
+# ========================
+# Backend (Laravel) Files
+# ========================
+
+# Laravel specific
+battime/api/.env
+battime/api/.env.backup
+battime/api/.env.production
+battime/api/.env.local
+battime/api/.env.testing
+battime/api/.phpunit.result.cache
+battime/api/Homestead.json
+battime/api/Homestead.yaml
+battime/api/auth.json
+battime/api/npm-debug.log
+battime/api/yarn-error.log
+
+# Laravel directories
+battime/api/bootstrap/cache/
+battime/api/storage/
+battime/api/vendor/
+battime/api/node_modules/
+
+# Laravel logs
+battime/api/storage/logs/
+battime/api/storage/framework/
+battime/api/storage/app/public/
+battime/api/public/storage
+
+# Laravel IDE
+battime/api/.vscode/
+battime/api/.idea/
+battime/api/*.swp
+battime/api/*.swo
+
+# ========================
+# Frontend (React) Files  
+# ========================
+
+# Dependencies
+battime_front_web/node_modules/
+battime_front_web/.pnp
+battime_front_web/.pnp.js
+
+# Production build
+battime_front_web/build/
+battime_front_web/dist/
+
+# Environment variables
+battime_front_web/.env
+battime_front_web/.env.local
+battime_front_web/.env.development.local
+battime_front_web/.env.test.local
+battime_front_web/.env.production.local
+
+# Logs
+battime_front_web/npm-debug.log*
+battime_front_web/yarn-debug.log*
+battime_front_web/yarn-error.log*
+battime_front_web/lerna-debug.log*
+
+# Runtime data
+battime_front_web/pids
+battime_front_web/*.pid
+battime_front_web/*.seed
+battime_front_web/*.pid.lock
+
+# Coverage directory used by tools like istanbul
+battime_front_web/coverage/
+battime_front_web/*.lcov
+
+# IDE and editor files
+battime_front_web/.vscode/
+battime_front_web/.idea/
+battime_front_web/*.swp
+battime_front_web/*.swo
+
+# ========================
+# General Files
+# ========================
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ========================
+# Security & Sensitive Data
+# ========================
+
+# Environment files (ВАЖНО!)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Keys and certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# ========================
+# Development Tools
+# ========================
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# Miscellaneous
+.sass-cache/
+.connect.lock
+.typings/
+
+# ========================
+# Keep important files
+# ========================
+!.gitkeep
+!README.md
+!LICENSE
+!.env.example 
